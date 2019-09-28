@@ -1,38 +1,25 @@
 <?php
 
  namespace Power;
-
  
 
 use pocketmine\event\Listener;
-
 use pocketmine\utils\TextFormat;
-
 use pocketmine\plugin\PluginBase;
-
 use pocketmine\plugin\Plugin;
-
 use pocketmine\command\Command;
-
 use pocketmine\command\CommandSender;
-
 use pocketmine\Player;
-
 use pocketmine\Server;
-
 use pocketmine\utils\Config;
-
- 
 
  class Main extends PluginBase implements Listener {
 
    
-
    public $config;
 
    public const PREFIX  = "§r[§aPower-§ePlugin§r] §9";
 
-   
 
    public function onEnable() {
 
@@ -45,12 +32,9 @@ use pocketmine\utils\Config;
   
 
   public function onDisable() {
-
     $this->getServer()->getLogger()->info(TextFormat::BLUE . "Power " . TextFormat::RED . "Deaktiviert.");
 
   }
-
-   
 
    
 
