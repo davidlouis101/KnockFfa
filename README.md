@@ -1,2 +1,0 @@
-# plugin
-Mein erstes plugin
