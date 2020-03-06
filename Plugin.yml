@@ -1,35 +1,18 @@
 name: KnockFFA
-
-api:  [3.0.0, 4.0.0]
-
+api:  [3.0.0, 4.0.0
 version: 1.0.0
-
 main: Power\Main
-
 author:
-
 - Crow
-
-
-
 load: STARTUP
 
 commands:
-
   power-help:
-
     description: Help liste
-
     usage: "/power-help"
-
   broadcaster:
-
     description: Broadcaster
-
     usage: "/broadcaster nachricht..."
-
   fly:
-
     description: weiss ich noch nicht
-
     usage: "/fly"
