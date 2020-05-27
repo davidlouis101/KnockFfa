@@ -1,6 +1,6 @@
 <?php
 
- namespace Power;
+ namespace Crow\Power;
  
 
 use pocketmine\event\Listener;
